@@ -8,7 +8,8 @@ import jakarta.persistence.Id;
 @Entity
 public class Student {
 
-	@Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@Id 
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private int roll;
 	private String name;
 	private String division;
